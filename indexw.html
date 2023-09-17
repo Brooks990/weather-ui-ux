@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather UI</title>
+
+    <style>
+
+body {
+font-family: Arial, sans-serif;
+ background-color: #f2f2f2; 
+ margin: 0;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;
+  padding: 0;
+
+}
+.weather-container {
+border-radius: 10px;
+background-color: #00008B; /* Pastel gray */ 
+padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+text-align: center;
+}
+
+.weather-container h1 { 
+    font-size: 24px;
+margin-bottom: 10px;
+color:#f2f2f2;
+
+}
+
+
+
+.weather-info {
+     display: flex;
+align-items: center;
+color: #f2f2f2;
+
+}
+
+.weather-details {
+ flex: 2;
+ text-align: left; 
+ margin-left: 20px;
+ color: #f2f2f2;
+}
+
+.Location{ font-size: 18px;
+ font-weight: bold;
+ color: #f2f2f2;
+
+}
+
+
+.temperature { 
+font-size: 16px;
+ margin-top: 10px;
+ color: #f2f2f2;
+}
+
+
+.description {
+font-size: 16px;
+ margin-top: 10px;
+ color:#f2f2f2;
+
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="weather-container">
+
+        <h1>Tomorrow's Weather</h1>
+        <div class="weather-info">
+        <div class="weather-icon">
+        <img src="https://media.istockphoto.com/id/1362631208/vector/yellow-sun-with-rays-sun-star-3d-vector-icon-cartoon-minimal-style-summer-weather-nature.jpg?b=1&s=170x170&k=20&c=GMtIpvgJgziS0KF49GTYPVaivEBYnhLZGz3fiLjUhy0=" alt="Weather Icon" style="width: 60px; height: 60px;">
+        </div>
+        <div class="weather-details">
+        <p class="location">City, Country</p>
+        <p class="temperature">Temperature: 30°C</p>
+        <p class="description">Partly Cloudy</p>
+        </div>
+        </div>
+        </div>
+    
+</body>
+</html>
